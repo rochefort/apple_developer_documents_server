@@ -12,7 +12,6 @@ class App < Sinatra::Base
   # /api/apple_developer_documents.json
   get '/api/apple_developer_documents.json' do
     content_type :json
-    p request.user_agent
     not_found unless request.user_agent.match(/iPad|iPhone|iPod/)
     { apple_developer_documents: get_documents }.to_json
   end
