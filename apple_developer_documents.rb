@@ -19,7 +19,6 @@ class AppleDeveloperDocuments
       record[:link_jp]  = link_jp.attr('href').value
       record[:title_jp] = link_jp.text
       link_en = title.css('div.en a')
-      puts link_en
       record[:link_en]  = link_en.attr('href').value
       record[:title_en] = link_en.text
 
