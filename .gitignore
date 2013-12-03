@@ -1,0 +1,14 @@
+.DS_Store
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+lib/bundler/man
+rdoc
+spec/reports
+
+# YARD artifacts
+# .yardoc
+# _yardoc
+# doc/
